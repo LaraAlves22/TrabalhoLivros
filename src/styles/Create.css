@@ -1,0 +1,128 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  h2 {
+    font-weight: 600;
+    text-align: center;
+    color: #3ce270;
+    margin-bottom: 1.5rem;
+  }
+  
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    color: #3ce270;
+    transition: all 0.2s ease;
+  }
+  
+  a:focus,
+  a:hover,
+  a:link:focus,
+  a:link:hover,
+  a:visited:focus,
+  a:visited:hover,
+  a:active:focus,
+  a:active:hover {
+    color: #28a745;
+  }
+  
+  .cadastro-form-container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cadastro-form {
+    padding: 10px 0;
+  }
+  
+  input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #c2c0ca;
+    font-size: 16px;
+    background: #f9f9f9;
+  }
+  
+  input:focus {
+    border-color: #3ce270;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .btn-cadastro {
+    border: none;
+    background-color: #3ce270;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .btn-cadastro:hover {
+    background-color: #05bd3f;
+    transition: all 0.2s ease;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  p a {
+    color: #3ce270;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .cadastro-form-container {
+      padding: 20px 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    input {
+      height: 45px;
+      font-size: 14px;
+    }
+  
+    .btn-cadastro {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  

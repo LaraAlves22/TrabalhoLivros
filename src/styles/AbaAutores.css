@@ -1,0 +1,63 @@
+/* Container principal */
+div {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Estilos para o título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2ea759;
+}
+
+/* Container da pesquisa por autor */
+.pesquisa-autor {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pesquisa-autor input {
+  padding: 8px;
+  width: 300px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pesquisa-autor button {
+  padding: 8px 16px;
+  background-color: #00ea81;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pesquisa-autor button:hover {
+    background-color: #2ea759;
+    transform: scale(1.05);
+}
+
+/* Estilos para o filtro de letras */
+.filtro-letras {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filtro-letras label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.filtro-letras select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  

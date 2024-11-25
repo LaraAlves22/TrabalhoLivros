@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2ea759;
+  }
+
+.generos_total {
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+}
+
+.ul_generos {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+    list-style: none;
+    width: 100%;
+    margin: 0 0;
+}
+
+.ul_generos li button {
+    padding: 10px 15px;
+    border: 1px solid #00ea81;
+    background-color: #fff;
+    color: #00ea81;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ul_generos li button:hover {
+    background-color: #00ea81;
+    color: #fff;
+}
+
+/* Container de livros */
+.livros-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}

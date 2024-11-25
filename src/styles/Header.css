@@ -1,0 +1,99 @@
+header{
+    color: #343a40; /* Cinza escuro */
+    background-color: #ffffff; /* Branco puro */
+    border-bottom: 0.5px solid #6c757d; /* Cinza médio */
+    border-color: #3ce270;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  
+  ul{
+    display: flex;
+    text-align: left;
+    margin: 1%;
+    padding: 1%;
+    gap: 3rem;
+    width: 40%;
+
+  }
+  
+  li{
+    display: flex;
+  }
+  
+  li > a{
+    color: #3ce270; /* Cinza escuro */
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: transform .5s;
+  }
+  
+  li > a:hover{
+    cursor: pointer;  
+    transform: scale(1.05);
+    color: #2ea759; /* Azul vibrante */
+  }
+
+  .form-container{
+    width: 40%;
+  }
+
+  .barra-pesquisa {
+    width: 30%;
+    display: flex;
+    margin: 20px auto;
+    max-width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 0 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .barra-pesquisa:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .barra-pesquisa input {
+    border: none;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .barra-pesquisa input::placeholder {
+    color: #aaa;
+  }
+  
+  .barra-pesquisa button {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .entrar button {
+    background-color: #3ce270;
+    border: none;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  .entrar button:hover {
+    background-color: #666e67; 
+  }

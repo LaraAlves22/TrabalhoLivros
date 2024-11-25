@@ -4,7 +4,7 @@ import { useSearchParams } from "next/navigation";
 import axios from "axios";
 import Footer from "@/app/components/footer";
 import Header from "@/app/components/header";
-import BookCard from "@/app/components/card"; // Importando o componente BookCard
+import BookCard from "@/app/components/card"; 
 import "@/app/globals.css";
 import "@/app/page.css";
 

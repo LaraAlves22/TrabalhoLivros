@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import axios from "axios";
 import "@/styles/Header.css";
 
 export default function Header({ onSearch }: { onSearch: (books: any[]) => void }) {
@@ -14,7 +13,6 @@ export default function Header({ onSearch }: { onSearch: (books: any[]) => void 
     if (!searchTerm.trim()) return;
 
     try {
-      // Em vez de passar um objeto, use uma string com a URL correta
       const queryParam = encodeURIComponent(searchTerm); // Codifica o termo de pesquisa
       router.push(`/livro?q=${queryParam}`); // Redireciona diretamente para a URL com a query
     } catch (error) {

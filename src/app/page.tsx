@@ -6,16 +6,13 @@ import Footer from "@/app/components/footer";
 import "@/app/globals.css";
 import "@/app/page.css";
 import axios from "axios";
-import BookCard from "@/app/components/card"; // Importando o componente BookCard
+import BookCard from "@/app/components/card"; 
 
 export default function Home() {
   const [books, setBooks] = useState<any[]>([]);
-
-  // Alteração: Usaremos um useEffect para carregar os livros mais populares
   useEffect(() => {
     const fetchPopularBooks = async () => {
       try {
-        // Fazendo uma requisição para a API do Google Books (ou outra de sua escolha)
         const response = await axios.get(
           `https://www.googleapis.com/books/v1/volumes?q=bestsellers&maxResults=10`
         );
@@ -27,7 +24,7 @@ export default function Home() {
     };
 
     fetchPopularBooks();
-  }, []); // A requisição é feita uma vez, quando o componente é montado
+  }, []); 
 
   return (
     <>
@@ -57,7 +54,7 @@ export default function Home() {
               ))}
             </div>
           ) : (
-            <p>Carregando livros populares...</p> // Exibe uma mensagem enquanto os livros são carregados
+            <p>Carregando livros populares...</p> 
           )}
         </div>
       </main>

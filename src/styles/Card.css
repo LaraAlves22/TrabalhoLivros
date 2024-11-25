@@ -1,32 +1,30 @@
-/* Estilo para o container dos cards */
 .book-list {
     display: flex;
-    flex-wrap: wrap; /* Permite quebra de linha */
-    justify-content: center; /* Centraliza os cards */
-    gap: 20px; /* Espaço entre os cards */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
     padding: 20px;
 }
 
-/* Estilo para os cards dos livros */
 .book-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 250px; /* Largura base */
+    width: 250px; 
     padding: 15px;
     border: 1px solid #3ce270;
     border-radius: 12px;
     text-align: center;
     cursor: pointer;
     background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .book-card:hover {
-    transform: translateY(-8px); /* Eleva o card */
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+    transform: translateY(-8px); 
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); 
 }
 
 .book-card img {
@@ -49,7 +47,6 @@
     margin: 5px 0;
 }
 
-/* Botão estilizado */
 .book-card button {
     margin-top: 10px;
     padding: 10px 15px;
@@ -66,10 +63,9 @@
 
 .book-card button:hover {
     background-color: #2ea759;
-    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+    transform: scale(1.05); 
 }
 
-/* Ajustes responsivos */
 @media (max-width: 1024px) {
     .book-card {
         width: 220px;

@@ -6,7 +6,7 @@ interface BookCardProps {
   book: any;
 }
 
-const BookCard: React.FC<BookCardProps> = ({ book }) => {
+const Card: React.FC<BookCardProps> = ({ book }) => {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => setShowModal(true);
@@ -36,4 +36,4 @@ const BookCard: React.FC<BookCardProps> = ({ book }) => {
   );
 };
 
-export default BookCard;
+export default Card;

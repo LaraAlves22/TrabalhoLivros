@@ -1,7 +1,7 @@
 header{
-    color: #343a40; /* Cinza escuro */
-    background-color: #ffffff; /* Branco puro */
-    border-bottom: 0.5px solid #6c757d; /* Cinza médio */
+    color: #343a40; 
+    background-color: #ffffff; 
+    border-bottom: 0.5px solid #6c757d; 
     border-color: #3ce270;
   }
   
@@ -26,7 +26,7 @@ header{
   }
   
   li > a{
-    color: #3ce270; /* Cinza escuro */
+    color: #3ce270; 
     text-decoration: none;
     font-size: 1.4rem;
     transition: transform .5s;
@@ -35,7 +35,7 @@ header{
   li > a:hover{
     cursor: pointer;  
     transform: scale(1.05);
-    color: #2ea759; /* Azul vibrante */
+    color: #2ea759; 
   }
 
   .form-container{

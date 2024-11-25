@@ -17,7 +17,7 @@ export default function AbaLivros() {
       const response = await axios.get(
         `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(
           query
-        )}&maxResults=40` // Aumentei o limite para buscar mais resultados
+        )}&maxResults=40` 
       );
       setLivros(response.data.items || []); // Atualiza os livros com a resposta da API
     } catch (error) {
@@ -73,7 +73,7 @@ export default function AbaLivros() {
           <button onClick={buscarPorAutor}>Pesquisar</button>
         </div>
 
-        {/* Filtro por Letra (Usando Select) */}
+        {/* Filtro por Letra*/}
         <div className="filtro-letras">
           <label htmlFor="letra">Filtrar por Letra: </label>
           <select

@@ -3,31 +3,6 @@ import Link from "next/link";
 import book from '/public/book.png'
 import '@/styles/Login.css'
 export default function Login(){
-    {/*e.preventDefault();
-
-    try {
-      const response = await axios.post("http://localhost:3000/login", {
-        name,
-        password,
-      });
-
-      setUser(response.data); // Define o usuário logado
-      setError(""); // Limpa erros anteriores
-    } catch (error) {
-      if (!error?.response) {
-        setError("Erro ao acessar servidor.");
-      } else if (error.response.status === 401) {
-        setError("Nome do Usuario ou senha inválidos.");
-      } else {
-        setError("Erro inesperado. Tente novamente.");
-      }
-    }
-  };
-
-  const handleLogout = () => {
-    setUser(null);
-    setError("");
-  };*/}
 
   return (
     <div className="login-form-container">
@@ -53,7 +28,7 @@ export default function Login(){
             <p>
               Não tem login?{" "}
               <Link
-                href="/cadastro"
+                href="/create"
                 style={{ color: "blue", textDecoration: "underline" }}
               >
                 Cadastre-se

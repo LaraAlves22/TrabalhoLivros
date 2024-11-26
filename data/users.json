@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Naty",
+    "email": "nathaliaafss@gmail.com",
+    "password": "123"
+  },
+  {
+    "name": "Ana",
+    "email": "ana@gmail.com",
+    "password": "1234"
+  },
+  {
+    "name": "Lara",
+    "email": "lara@teste.com",
+    "password": "123456"
+  },
+  {
+    "name": "Teste",
+    "email": "nathaliaafss@gmail.com",
+    "password": "1234"
+  },
+  {
+    "name": "Julia",
+    "email": "julia@gmail.com",
+    "password": "123"
+  }
+]

@@ -80,7 +80,7 @@ header{
     transition: color 0.2s ease-in-out;
   }
 
-  .entrar button {
+  .profile-container button {
     background-color: #3ce270;
     border: none;
     color: white;
@@ -94,6 +94,26 @@ header{
     margin-right: 10px;
   }
   
-  .entrar button:hover {
+  .profile-container button:hover {
     background-color: #666e67; 
   }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .profile-icon {
+    font-size: 20px; /* Tamanho do ícone */
+    
+  }
+  
+  .profile-container button {
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 10px;
+  
+  }
+  
